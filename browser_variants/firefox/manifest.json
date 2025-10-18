@@ -527,6 +527,16 @@
         "base/browser/content/content_common.js",
         "site/wikipedia/browser/wikipedia_content.js"
       ]
+    },
+    {
+      "matches": [
+        "*//newspapers.library.wales/*"
+      ],
+      "run_at": "document_idle",
+      "js": [
+        "base/browser/content/content_common.js",
+        "site/welshnp/browser/welshnp_content.js"
+      ]
     }
   ],
   "options_ui": {
@@ -950,6 +960,14 @@
       ],
       "matches": [
         "*://*.wikipedia.org/*"
+      ]
+    },
+    {
+      "resources": [
+        "site/welshnp/core/welshnp_extract_data.mjs"
+      ],
+      "matches": [
+        "*//newspapers.library.wales/*"
       ]
     }
   ],

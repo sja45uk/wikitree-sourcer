@@ -73,6 +73,7 @@ const siteNames = [
   "dfgviewer",
   "basrhin",
   "arolsenarchives",
+  "welshnp",
 ];
 
 function testSuiteEnabled(parameters, testSuiteName) {
