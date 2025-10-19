@@ -550,7 +550,7 @@
     },
     {
       "matches": [
-        "*//newspapers.library.wales/*"
+        "*://newspapers.library.wales/*"
       ],
       "run_at": "document_idle",
       "js": [
